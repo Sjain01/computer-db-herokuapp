@@ -1,0 +1,31 @@
++-------------------------------------------------------------------------------------------------------------------------+
+|                                           Search and edit Computer                                                      |
++-------------------------------------------------------------------------------------------------------------------------+
+| Pre-requisite                  | Scenarios                             | Test Steps                                     |
++--------------------------------+---------------------------------------+------------------------------------------------+
+| Navigate to herokuapp database | Search non-existing Computer Name     | - Create a computer name of random characters  |
+|                                |                                       |   and enter it into Filter By Name textbox.    |
+|                                |                                       |   Since it doesn't exist, the error message    |
+|                                |                                       |   gets displayed on Home Page                  |
++                                +---------------------------------------+------------------------------------------------+
+|                                | Search an existing computer name and  | - Go to random page number with valid results  |
+|                                | edit the values of it                 |                                                |
+|                                |                                       | - Copy first element on that page and enter    |
+|                                |                                       |   it into searchbox                            |
+|                                |                                       |                                                |
+|                                |                                       | - Retrieve that element and click on edit      |
+|                                |                                       |   computer button                              |
+|                                |                                       |                                                |
+|                                |                                       | - Regenerate the form on edit computer page    |
+|                                |                                       |   with random alphabetic characters in         |
+|                                |                                       |   computer name field.                         |
+|                                |                                       |                                                |
+|                                |                                       | - Generate date fields with randomly generated |
+|                                |                                       |   valid format dates                           |
+|                                |                                       |                                                |
+|                                |                                       | - Select random company and click on save      |
+|                                |                                       |   this computer button.                        |
+|                                |                                       |                                                |
+|                                |                                       | - Lastly, verify the message that filled in    |
+|                                |                                       |   details are saved.                           |
++--------------------------------+---------------------------------------+------------------------------------------------+
