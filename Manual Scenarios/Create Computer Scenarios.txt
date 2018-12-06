@@ -1,0 +1,29 @@
++---------------------------------------------------------------------------------------------------------------------------------------+
+|                                           Create Computer Scenarios                                                                   |
++---------------------------------------------------------------------------------------------------------------------------------------+
+| Pre-requisite                            | Scenarios                               | Test Steps                                       |
++------------------------------------------+-----------------------------------------+--------------------------------------------------+
+| - Navigate to computer db herokuapp site | Verify User Interface Elements          | - Check Cancel and Create New Computer buttons   |
+| - Click on Add a new computer button     |                                         |   are enabled                                    |
+| - Validate header , title and URL        |                                         |                                                  |
++------------------------------------------+-----------------------------------------+--------------------------------------------------+
+|                                          | Add new computer by entering random     | - Keep computer name empty and click on Create   |
+|                                          | characters in Computer Name field       |   computer button - message gets displayed       |
+|                                          |                                         |                                                  |
+|                                          |                                         | - Create random alphabetic computer name and     |
+|                                          |                                         |   click on create computer button.               |
+|                                          |                                         |   Computer gets created and verify message gets  |
+|                                          |                                         |   displayed on Home Page.                        |
++------------------------------------------+-----------------------------------------+--------------------------------------------------+
+|                                          | Enter values into date field and        | - Invalid date entries are entered for both      |
+|                                          | click create this computer button       |   Introduced and DisIntroduced date fields.      |
+|                                          |                                         |   And verify if the fields are highlighted       |
+|                                          |                                         |   in red color.                                  |
++------------------------------------------+-----------------------------------------+--------------------------------------------------+
+|                                          | Fill up the complete form on Create     | - Generate random alphanumeric characters for    |
+|                                          | Computer Page and create a new computer |   Computer name. Enter valid date entries in     |
+|                                          |                                         |   both Introduced and DisIntroduced fields.      |
+|                                          |                                         |   Select random company and click on Create      |
+|                                          |                                         |   New Computer button.Then verify computer is    |
+|                                          |                                         |   created message on Home Page.                  |
++------------------------------------------+-----------------------------------------+--------------------------------------------------+

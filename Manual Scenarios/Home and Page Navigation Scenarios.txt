@@ -1,0 +1,21 @@
++-----------------------------------------------------------------------------------------------------------------+
+|                                        Home and Page Navigation Scenarios                                       |
++-----------------------------------------------------------------------------------------------------------------+
+| Pre-requisite                 | Scenarios                       | Test Steps                                    |
++-------------------------------+---------------------------------+-----------------------------------------------+
+| Navigate to computer database | Verify User Interface Elements  | Validate title,header and URL                 |
++ herokuapp website             + on Home Page                    +-----------------------------------------------+
+|                               |                                 | Validate Add Computer and Filter by Name btns |
+|                               |                                 | are enabled                                   |
++                               +---------------------------------+-----------------------------------------------+
+|                               | Verify Page Navigation          | Check on Home Page , prev button is disabled  |
+|                               |                                 | and next button is enabled                    |
++                               +                                 +-----------------------------------------------+
+|                               |                                 | Scroll to next Page and check on that page    |
+|                               |                                 | both next and previous buttons are            |
+|                               |                                 | enabled.                                      |
++                               +                                 +-----------------------------------------------+
+|                               |                                 | Scroll to end of list by continuosly clicking |
+|                               |                                 | on next button and verify that next btn       |
+|                               |                                 | get disabled and prev btn gets enabled        |
++-------------------------------+---------------------------------+-----------------------------------------------+

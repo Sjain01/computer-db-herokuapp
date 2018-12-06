@@ -1,0 +1,13 @@
++---------------------------------------------------------------------------------------------------------------------------+
+|      Search and delete Computer                                                                                           |
++---------------------------------------------------------------------------------------------------------------------------+
+| Pre-requisite                    | Scenarios                         | Test Steps                                         |
++----------------------------------+-----------------------------------+----------------------------------------------------+
+| - Navigate to herokuapp database | Search an existing computer name  | - Go to any random page with valid search results  |
+|                                  | and delete it                     |   on website. Copy the first element on search     |
+|                                  |                                   |   page and place it in search box.                 |
+|                                  |                                   | - Click on retrieved result and verify if the name |
+|                                  |                                   |   matches with one entered in searchbox            |
+|                                  |                                   | - Click on Delete computer and verify message that |
+|                                  |                                   |   computer is deleted successfully on Home Page.   |
++----------------------------------+-----------------------------------+----------------------------------------------------+
